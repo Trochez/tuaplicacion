@@ -62,5 +62,9 @@ Para la información básica se realizan desarrollos adicionales: se desarrolla 
 /putAditional/{basicid}  (Actualización de registro de información adicional entregando el campo basicid y la información del registro en forma de String JSON como parámetros)
 
 
+
+
+
+
 Espero que este documento sea claro, sin embargo, estaré pendiente para atender cualquier solicitud con amabilidad.
 
