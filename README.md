@@ -42,9 +42,9 @@ Para la información básica se realizan desarrollos adicionales: se desarrolla 
 
 #### Información Básica
 
-/createBasic  (Inserción de registro de información básica entregando como parámetros los campos email, name, lastName, tel y address)
+/createBasic  (Inserción de registro de información básica entregando como parámetros los campos email, name, lastname, tel y address)
 
-/findBasic  (Busqueda de registro de información básica a partir del id del registro)
+/findBasic  (Busqueda de registro de información básica a partir del id (uid) del registro)
 
 /getAllBasic  (Obtención de todos los registros de información básica)
 
@@ -57,7 +57,7 @@ Para la información básica se realizan desarrollos adicionales: se desarrolla 
 
 /createAditional  (Inserción de registro de infromación adicional entregando como parámetros los campos art, music, movies y basicid donde basicid es el id del registro de información básica a la cual se asocia el registro de información adicional que se está insertando)
 
-/findAditional  (Busqueda de registro de información adicional a partir del id del registro)
+/findAditional  (Busqueda de registro de información adicional a partir del del campo basicid del registro)
 
 /deleteAditional/{basicid}  (Eliminación de registro de información adicional entregando el campo basicid como parametro para identificar el registro a eliminar)
 
