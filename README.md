@@ -36,6 +36,31 @@ La información básica y adicional se representan en una serie de clases e inte
 
 Para la información básica se realizan desarrollos adicionales: se desarrolla un servicio para obtener todos los registros de información básica buscando generar una lista de usuarios y un método de consulta mediante email para verificar que un nuevo email no esté registrado.
 
+### End points
+
+#### Información Básica
+
+/createBasic  (Inserción de registro de información básica entregando como parámetros los campos email, name, lastName, tel y address)
+
+/findBasic  (Busqueda de registro de información básica a partir del id del registro)
+
+/getAllBasic  (Obtención de todos los registros de información básica)
+
+/delete/{id}  (Eliminación de registro de información básica entregando el id del resgitro como parámetro)
+
+/put/{id}  (Actualización de registro de información básica entregando el id y la información del registro en forma de String JSON como parámetros)
+
+
+#### Información adicional
+
+/createAditional  (Inserción de registro de infromación adicional entregando como parámetros los campos art, music, movies y basicid donde basicid es el id del registro de información básica a la cual se asocia el registro de información adicional que se está insertando)
+
+/findAditional  (Busqueda de registro de información adicional a partir del id del registro)
+
+/deleteAditional/{basicid}  (Eliminación de registro de información adicional entregando el campo basicid como parametro para identificar el registro a eliminar)
+
+/putAditional/{basicid}  (Actualización de registro de información adicional entregando el campo basicid y la información del registro en forma de String JSON como parámetros)
+
 
 Espero que este documento sea claro, sin embargo, estaré pendiente para atender cualquier solicitud con amabilidad.
 
